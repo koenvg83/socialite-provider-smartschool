@@ -1,0 +1,28 @@
+{
+    "name": "koenvg83/socialite-smartschool",
+    "description": "Smartschool Provider for Laravel Socialite",
+    "keywords": [
+        "smartschool",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Koen Vangheluwe",
+            "email": "koen.vangheluwe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Smartschool\\": "src/"
+        }
+    }
+}
